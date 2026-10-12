@@ -1,54 +1,103 @@
-# Loop — Social Media Feed Web App
+# Social Media Feed App
 
-A responsive social media feed demo built with React, TypeScript, Vite, CSS, REST APIs, and JSON. Designed to run on Windows with VS Code.
+A modern, responsive social media feed application built with React, TypeScript, and Vite. Explore posts, search content, like posts, and interact with a clean, community-inspired interface.
 
-## Features
-- Fetches posts and user profiles from JSONPlaceholder
-- Responsive feed with reusable post cards
-- Search posts by title, content, or author
-- Like/unlike posts (client-side demo state)
-- Filter between all posts and liked posts
-- Refresh feed from the API
-- Asynchronous image loading with fallbacks
-- Loading, error, and empty states
-- Responsive desktop and mobile layout
+🔗 **Live Demo:** https://social-media-feed-flax.vercel.app
 
-## Requirements
-- Node.js 20.19+ or 22.12+ recommended
-- npm
-- VS Code (optional but recommended)
-- Internet connection for the public demo API and images
+📂 **GitHub Repository:** https://github.com/priyankajonnalagadda/Social-Media-Feed
 
-## Run on Windows
-1. Extract the ZIP.
-2. Open the `Social_Media_Feed_Web_App` folder in VS Code.
-3. Open **Terminal → New Terminal**.
-4. Run these commands:
+## ✨ Features
 
-```bash
-npm install
-npm run dev
-```
+- **Dynamic Feed:** Fetch and display posts from a REST API.
+- **Search:** Find posts using keywords.
+- **Like Posts:** Interact with posts and view liked content.
+- **Responsive UI:** Clean interface for different screen sizes.
+- **Interactive Navigation:** Navigate between feed sections.
+- **Asynchronous Data Loading:** Load content from an external API.
+- **Reusable Components:** Maintainable, component-based architecture.
 
-5. Open the local URL printed in the terminal, usually `http://localhost:5173`.
+## 🛠️ Tech Stack
 
-To create a production build:
+- **Frontend:** React, TypeScript
+- **Build Tool:** Vite
+- **API Integration:** REST APIs
+- **Data Format:** JSON
+- **Styling:** CSS
+- **Deployment:** Vercel
+- **Version Control:** Git and GitHub
+
+## 🚀 Run Locally
+
+### Prerequisites
+- Node.js and npm installed
+- Git installed (optional)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/priyankajonnalagadda/Social-Media-Feed.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Social-Media-Feed
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal, usually `http://localhost:5173`.
+
+## 🏗️ Build for Production
 
 ```bash
 npm run build
 ```
 
-## API
-- Posts: `https://jsonplaceholder.typicode.com/posts`
-- Users: `https://jsonplaceholder.typicode.com/users`
-- Images: `https://picsum.photos/seed/<post-id>/900/600`
+To preview the production build locally:
 
-This is a demo application. Likes are stored only in browser memory and reset on refresh; it is not connected to a real social network or user authentication.
+```bash
+npm run preview
+```
 
-## Suggested resume entry
-**Social Media Feed Web App | React, TypeScript, REST APIs, JSON**
-- Built a responsive social feed with reusable React components, post cards, search, and like/unlike interactions.
-- Integrated REST APIs and JSON parsing to retrieve posts and user profiles, with asynchronous image loading.
-- Used component state and modular UI structure to manage feed updates and improve maintainability.
+## 📁 Project Structure
 
-Only claim features and results you have personally run and verified.
+```text
+Social-Media-Feed/
+├── src/
+├── index.html
+├── package.json
+├── tsconfig.json
+├── tsconfig.app.json
+├── vite.config.ts
+└── README.md
+
+## 🌐 Deployment
+
+The application is deployed on Vercel.
+
+**Live Application:** https://social-media-feed-flax.vercel.app
+
+## 🎯 Project Objective
+
+This project demonstrates frontend development, reusable UI components, API integration, JSON data handling, interactive state management, and deployment of a web application.
+
+## 👩‍💻 Author
+
+**Priyanka Jonnalagadda**
+
+- GitHub: https://github.com/priyankajonnalagadda
+
+
